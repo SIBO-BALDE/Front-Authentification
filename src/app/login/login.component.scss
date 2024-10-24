@@ -1,0 +1,121 @@
+/* Center the form and make it responsive */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+  }
+  
+  /* Style the mat-card */
+  .form-card {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 12px;
+  }
+  
+  /* Style the title */
+  .title {
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+  }
+  
+  /* Style the mat-form-field */
+  .full-width {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  /* Style the mat-card-actions */
+  .actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Button styling */
+  button {
+    width: 48%;
+    // background-color: #03C9D7 !important;
+  }
+  #btn-content2{
+    background-color: #fff !important;
+    // background-color: #03C9D7 !important;
+    color: #FB9778;
+    border: 2px solid #FB9778 !important;
+  }
+  .mat-icon{
+    color: #FB9778 !important;
+  }
+  
+  /* Style pour changer la couleur de la bordure au focus */
+  mat-form-field .mat-form-field-outline {
+    /* Couleur par défaut de la bordure */
+    // border-color: #c4c4c4;
+  }
+  
+  // #input-content:focus{
+  //   border: 1px solid #03C9D7 !important;
+  
+  // }
+  
+  /* Couleur de la bordure lorsqu'un champ est en focus */
+  mat-form-field.mat-focused .mat-form-field-outline {
+    color: #03C9D7 !important;
+    border-color: #03C9D7 !important;
+  }
+  
+  
+  #content-content{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  #btn-content1{
+    // background-color: #03C9D7 !important;
+    color: #fff;
+    background-color: #FB9778 !important;
+  
+  }
+  .mdc-text-field--outlined:focus{
+    border: 1px solid #03C9D7 !important;
+  }
+  
+  /* Override Angular Material colors */
+  .mat-raised-button {
+    background-color: #03C9D7 !important;
+    color: #FFFFFF !important;
+  }
+  
+  .mat-stroked-button {
+    border-color: #03C9D7 !important;
+    color: #03C9D7 !important;
+  }
+  
+  /* Style pour le lien de connexion */
+  .switch-to-login {
+    text-align: center;
+    margin-top: 10px;
+  
+    a {
+      color: #FB9778;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    }
+    mat-card{
+      border-top: 7px solid #03C9D7;
+    }
+    #title-content{
+      text-align: center;
+      color: #FB9778;
+      margin-top: 10px;
+    }
+    #btn-content1{
+      width: 100% !important;
+    }
+  
