@@ -6,3 +6,24 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     border-top: 7px solid #03C9D7;
 
 }
+
+/* Changer la couleur de la bordure quand le champ est en focus */
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+    stroke: #03C9D7 !important;
+  }
+  
+  /* Changer la couleur de la ligne en bas du champ lorsqu'il est en focus */
+  ::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-gap {
+    stroke: #03C9D7 !important;
+  }
+  
+  /* Couleur du label lors du focus */
+  ::ng-deep .mat-form-field-appearance-outline .mat-form-field-label {
+    color: #03C9D7 !important;
+  }
+  
+  /* Changer la couleur du ripple en bas de l'input lors du focus */
+  ::ng-deep .mat-form-field.mat-focused .mat-form-field-ripple {
+    background-color: #03C9D7 !important;
+  }
+  
